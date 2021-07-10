@@ -1,0 +1,32 @@
+{
+  "name": "socket.io-node",
+  "version": "0.1.0",
+  "description": "Proyecto de chat con Node y Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloDelgadoC/Socket.io-Node.git"
+  },
+  "keywords": [
+    "chat",
+    "node",
+    "socket.io"
+  ],
+  "author": "Pablo Delgado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PabloDelgadoC/Socket.io-Node/issues"
+  },
+  "homepage": "https://github.com/PabloDelgadoC/Socket.io-Node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.11"
+  }
+}
