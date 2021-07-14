@@ -1,4 +1,4 @@
-const socket = io.connect('http://10.1.10.1:6677',{'forceNew':true});
+const socket = io.connect('http://98.34.167.27:6677',{'forceNew':true});
 
 socket.on('messages', (data) => {
     console.log(data);
@@ -6,7 +6,7 @@ socket.on('messages', (data) => {
 });
 
 function render(data) {
-    let html = data.map(function(messages, i){
+    let html = data.map(function(message, i){
         return (`
             <div class='message'>
                 <strong>${message.nickmane}</strong> dice: 
